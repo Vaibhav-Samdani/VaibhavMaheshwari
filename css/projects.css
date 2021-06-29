@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Work+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --font: 'Montserrat', sans-serif;
+    --prime-font: 'Work Sans', sans-serif;
+    --bg: #1a1c20;
+    --main-color: #f9813a;
+    --main-font-color: #fdfbfb;
+    --sec-font-color: #fcf1f1b4;
+}
+body{
+    background: var(--bg);
+    font-family: var(--font);
+    color: var(--main-font-color);
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* navbar */
+.nav {
+    width: 85%;
+    height: 70px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.checkBtn{
+    display: none;
+}
+.nav .logo{
+    font-size: 2em;
+}
+.nav ol{
+    list-style: none;
+}
+.nav ol a{
+    text-decoration: none;
+    color: var(--sec-font-color);
+    margin: 0.3em;
+    padding: 0.5em 1.5em;
+    border-radius: 10px;
+}
+.nav ol a:hover{
+    transition: background .8s;
+    background: var(--main-color);
+}
+
+.nav .logo a{
+    font-size: 40px;
+    font-family: cursive;
+    color: #fff;
+    text-decoration: none;
+}
+
+.icon.arrow{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.des{
+    font-size: 15px;
+    font-family: serif;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.des a{
+    color: royalblue;
+
+}
+
+.ranfile {
+  
+  background-color: var(--bg);
+  box-shadow: 2px 2px 5px #00d2c6, 
+            -3px -3px 6px #00ffff ;
+  border-radius: 11px;
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  margin-right: .1rem;
+  margin-left: 35px;
+  margin-top: 50px;
+  width: 120px;
+  position: relative;
+
+}
+
+.ranfile img{
+  max-height: 100%; 
+  max-width: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+.ran.joke{
+  line-height: 1em;
+  height: 2em;       /* height is 2x line-height, so two lines will display */
+  width: 100%;
+  font-family: serif;
+  margin-left: 44px;
+  margin-top: -23px;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  font-family: cursive;
+  font-size: 16px;
+}
+
+.cardfile{
+  
+  background-color: var(--bg);
+  box-shadow: 2px 2px 5px #00d2c6, 
+            -3px -3px 6px #00ffff ;
+  border-radius: 11px;
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  margin-right: .1rem;
+  margin-left: 35px;
+  margin-top: 50px;
+  width: 120px;
+  position: relative;
+
+}
+
+
+
+.cardfile img{
+  max-height: 100%; 
+  max-width: 100%;
+  height: 100px;
+  width: 100px;
+}
+
+.card{
+  line-height: 1em;
+  height: 2em;       /* height is 2x line-height, so two lines will display */
+  width: 100%;
+  font-family: serif;
+  margin-left: 56px;
+  margin-top: -23px;
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  font-family: cursive;
+  font-size: 16px;
+}
